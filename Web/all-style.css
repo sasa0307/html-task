@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+header {
+    background-color: beige;
+    padding: 3rem;
+}
+
+footer {
+    background-color: beige;
+    padding: 2rem;
+}
+
+.logo {
+    width: auto;
+    text-align: left;
+    background-color: rgba(7, 7, 7, 0.26);
+}
+
+header{
+    width: 100%;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+
+body{
+    min-width: 700px;
+}
+
+.breadcrumbs{
+    list-style: none;
+    display: flex;
+}
+
+.breadcrumbs li::after{
+    content: ">";
+    padding: 0 0.5rem;
+}
+
+.breadcrumbs li:list-child::after{
+    content: "";
+}
+
+.breadcrumbs li a:link{
+    color: blueviolet;
+}
+
+.breadcrumbs li a:visited{
+    color: red;
+}
+
+.breadcrumbs li a:hover{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Yuji Syuku', serif;
+}
+
+header ul li a{
+    display: block;
+    padding: 0.5rem;
+    color: gold;
+    text-decoration: none;
+    /*太字にするプロパティ*/
+    font-weight: bold;
+    -webkit-text-stroke: 1px yellow;
+    font-size: 30px;
+}
+
+header ul li + li{
+    border-left: 2px solid #00552e;
+}
+
+header li{
+    width: 20%;
+    text-align: center;
+}
+
+.logo{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+
+header img {
+    width: 10rem;
+    display: inline-block;
+    float: left;
+}
+
+.background {
+    background-image: url(img/img2.jpg);
+    background-position: left;
+    height: 120px;
+}
