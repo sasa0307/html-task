@@ -1,0 +1,221 @@
+@charset "utf-8";
+
+body {
+  font-family: 'Sawarabi Mincho', serif; 
+  margin: 0;
+  padding: 0;
+  background-color: #cccccc;
+  color: #333333;
+  font-size: 15px;
+  line-height: 2;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+  margin-top: 0;
+}
+
+img {
+  vertical-align:bottom;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #3583aa;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #788d98;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  width: 960px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.logo {
+  margin-top: 20px;
+}
+
+.global-nav {
+  display: flex;
+  margin-top: 60px;
+}
+
+.global-nav li {
+  margin: 0 20px;
+  font-size: 20px;
+  list-style: none;
+  font-family: 'Bitter', serif; 
+}
+
+.global-nav li a {
+  color: #ffffff;
+}
+
+.global-nav li a:hover {
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+
+#wrap {
+  clear: both;
+  background-color: #ffffff;
+  margin-top: 220px;
+  padding: 35px 0;
+}
+
+.content {
+  width: 960px;
+  margin: 0 auto;
+}
+
+footer {
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+footer small {
+  font-size: 12px;
+}
+
+.header_da{
+  display: flex;
+  justify-content: space-between;
+}
+
+#index h1{
+  font-size: 100px;
+  line-height: 1;
+  color: white;
+  font-family: 'Bitter', serif; 
+  margin-bottom: 50px;
+  border: none;
+}
+
+#index .content{
+  margin-top: 150px;
+}
+
+#index p{
+  font-size: 16px;
+  color: white;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 20px;
+  color: white;
+  font-family: 'Bitter', serif; 
+  width: 185px;
+  background-color: #92bae2;
+  text-align: center;
+  line-height: 2.5;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 3px solid #5295D8;
+  margin-right: 10px; 
+}
+
+.btn:last-child {
+  margin-right: 0; 
+}
+
+.btn:hover {
+  text-decoration: none;
+  background-color: white;
+  color: #5295D8;
+}
+
+#index footer{
+  width: 960px;
+  margin: 150px auto 0px auto;
+  text-align: left;
+}
+
+#index {
+ background-image: url(img/23105_FREEDOM_OGP.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+#index #wrap{
+  background-color: transparent;
+  margin-top: 0;
+  padding: 0;
+}
+
+.main-center{
+  padding: 940px;
+  margin: 0 auto;
+}
+
+h1{
+  font-family: "Bitter",serif;
+  font-size: 30px;
+  border-bottom: 1px solid #cccccc;
+}
+
+h2{
+  font-family: "Bitter",serif;
+  font-size: 24px;
+}
+
+.icon::before{ 
+  content: "";
+  padding-right: 10px;
+  border-left: 7px solid #9cd4a4; 
+}
+
+.profile-txt{
+  width: 540px;
+}
+
+.profile{
+  display: flex;
+  margin-bottom: 0px;
+}
+
+.profile-txt span{
+  font-weight: bold;
+}
+
+.profile-img{
+  margin-left: auto;
+}
+
+.career th{
+  width: 240px;
+  background-color: #f0f0f0;
+  padding: 12px 0;
+  border: 1px solid #cccccc; 
+}
+
+.career td{
+  width: 660px;
+  padding: 12px 0 12px 40px;
+  border: 1px solid #cccccc;
+}
+
+.career table{
+  border-color: collapse;
+}
